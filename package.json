@@ -1,11 +1,14 @@
 {
-  "name": "antigravity-boost",
+  "name": "@andrewmason7/antigravity-boost",
   "version": "1.0.0",
   "description": "Developer productivity & speed booster plugin for Google Antigravity featuring automatic Git WIP checkpoints, interactive dependency resolution, smart permission gating, and project convention adaptation.",
   "main": "bin/install.js",
   "bin": {
     "antigravity-boost": "bin/install.js",
     "agy-boost": "bin/install.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "start": "node bin/install.js"

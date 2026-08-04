@@ -10,7 +10,7 @@
 Run this single command in your terminal to install `antigravity-boost` globally:
 
 ```bash
-npx antigravity-boost
+npx @andrewmason7/antigravity-boost
 ```
 
 *Or install via cURL:*
