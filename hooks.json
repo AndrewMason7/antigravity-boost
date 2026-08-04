@@ -1,0 +1,39 @@
+{
+  "antigravity-boost": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|list_dir|view_file|grep_search",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ./scripts/pre_tool_gate.py"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ./scripts/post_tool_detect_deps.py"
+          }
+        ]
+      }
+    ],
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "python3 ./scripts/pre_invocation_inject_prompt.py"
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python3 ./scripts/stop_git_checkpoint.py"
+      }
+    ]
+  }
+}

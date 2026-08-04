@@ -1,0 +1,7 @@
+{
+  "auto_git_checkpoints": true,
+  "max_install_attempts": 2,
+  "custom_safe_patterns": [],
+  "custom_destructive_patterns": [],
+  "debug_mode": false
+}

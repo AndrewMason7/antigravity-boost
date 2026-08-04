@@ -1,0 +1,5 @@
+{
+  "name": "antigravity-boost",
+  "version": "1.0.0",
+  "description": "Developer productivity & speed booster plugin featuring automatic Git WIP checkpoints, interactive dependency resolution, smart permission gating, and project convention adaptation."
+}
