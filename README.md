@@ -1,11 +1,14 @@
 # 🚀 `antigravity-boost`
 
+[![npm version](https://img.shields.io/npm/v/@andrewmason7/antigravity-boost.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/@andrewmason7/antigravity-boost)
+[![license](https://img.shields.io/npm/l/@andrewmason7/antigravity-boost.svg?style=flat-square&color=green)](https://github.com/AndrewMason7/antigravity-boost/blob/main/LICENSE)
+
 > **Boost your developer productivity with zero friction, automated Git checkpoints, 1-click dependency installs, and smart permission gating.**  
 > `antigravity-boost` is an essential productivity plugin for **Google Antigravity** engineered to give you complete peace of mind while pair-programming with AI.
 
 ---
 
-## ⚡ 1-Line Installation (Mac, Windows & Linux)
+## ⚡ 1-Line Global Installation (Mac, Windows & Linux)
 
 Run this single command in your terminal to install `antigravity-boost` globally:
 
@@ -89,6 +92,13 @@ Customize `antigravity-boost` to fit your personal workflow by editing `config.j
   "debug_mode": false
 }
 ```
+
+---
+
+## 🔗 Links
+
+- **NPM Package**: [https://www.npmjs.com/package/@andrewmason7/antigravity-boost](https://www.npmjs.com/package/@andrewmason7/antigravity-boost)
+- **GitHub Repository**: [https://github.com/AndrewMason7/antigravity-boost](https://github.com/AndrewMason7/antigravity-boost)
 
 ---
 
