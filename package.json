@@ -1,0 +1,33 @@
+{
+  "name": "antigravity-boost",
+  "version": "1.0.0",
+  "description": "Developer productivity & speed booster plugin for Google Antigravity featuring automatic Git WIP checkpoints, interactive dependency resolution, smart permission gating, and project convention adaptation.",
+  "main": "bin/install.js",
+  "bin": {
+    "antigravity-boost": "bin/install.js",
+    "agy-boost": "bin/install.js"
+  },
+  "scripts": {
+    "start": "node bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewMason7/antigravity-boost.git"
+  },
+  "keywords": [
+    "antigravity",
+    "antigravity-plugin",
+    "agy",
+    "ai-agent",
+    "developer-experience",
+    "git-checkpoint",
+    "dependency-resolver",
+    "permission-gate"
+  ],
+  "author": "Andrew Mason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewMason7/antigravity-boost/issues"
+  },
+  "homepage": "https://github.com/AndrewMason7/antigravity-boost#readme"
+}

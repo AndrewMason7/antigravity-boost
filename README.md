@@ -5,15 +5,21 @@
 
 ---
 
-## ⚡ 1-Line Installation (Mac / Linux)
+## ⚡ 1-Line Installation (Mac, Windows & Linux)
 
 Run this single command in your terminal to install `antigravity-boost` globally:
+
+```bash
+npx antigravity-boost
+```
+
+*Or install via cURL:*
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/AndrewMason7/antigravity-boost/main/install.sh | bash
 ```
 
-*Or install manually:*
+*Or install manually via Git clone:*
 
 ```bash
 mkdir -p ~/.gemini/config/plugins/
